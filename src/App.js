@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
+import './index.css';
+import { Loader } from './Loader';
 
 export const App = () => {
   return (
-    <div>
-      Find me in src/app.js!
-    </div>
+    <Loader />
   )
 }
